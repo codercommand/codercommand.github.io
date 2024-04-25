@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arcade Blogs on Rian Rutherford</title>
+    <link>https://codercommand/github.io/arcade-blog/</link>
+    <description>Recent content in Arcade Blogs on Rian Rutherford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 25 Apr 2024 17:04:30 +0100</lastBuildDate><atom:link href="https://codercommand/github.io/arcade-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arcade GDD</title>
+      <link>https://codercommand/github.io/arcade-blog/arcade-gdd/</link>
+      <pubDate>Thu, 25 Apr 2024 17:04:30 +0100</pubDate>
+      
+      <guid>https://codercommand/github.io/arcade-blog/arcade-gdd/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Origin of Arcade</title>
+      <link>https://codercommand/github.io/arcade-blog/origin-of-arcade/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://codercommand/github.io/arcade-blog/origin-of-arcade/</guid>
+      
+      <description>How Arcade came to be</description>
+      
+    </item>
+    
+  </channel>
+</rss>
