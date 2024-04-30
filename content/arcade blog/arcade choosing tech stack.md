@@ -1,5 +1,5 @@
 +++
-title = 'Tech Stack'
+title = 'Arcade: Choosing Tech Stack'
 date = 2024-04-27
 draft = false
 +++

@@ -1,5 +1,5 @@
 +++
-title = 'Arcade GDD'
+title = 'Arcade: Game Design Document'
 date = 2023-09-01
 draft = false
 +++
@@ -9,15 +9,13 @@ Copyright, Rian Rutherford, 2024, All rights reserved.
 ![Image](gavin-rothery-concept-piece-1-energy-landed-group-closed-v010.jpg)
 > ^ Concept art by Gavin Rothery [source](https://www.artstation.com/artwork/bKXE2G).
 
-# Background
-
-This game was inspired from [Demise]({{< ref "demise" >}}), which you can read about in [Origin of Arcade]({{< ref "origin of arcade" >}}).
-
 
 
 # Concept & Gameplay
 
 You pilot an agile spaceship in 3D person that flies like an RC drone. You fight in a platoon of three people against two other platoons (3v3v3), using different homing and lock on projectiles, or weapons, to shoot down opponents in chaotic fights with lots of explosions.
+
+This game was inspired from [Demise]({{< ref "demise" >}}).
 
 
 
