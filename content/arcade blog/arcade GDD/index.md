@@ -21,6 +21,16 @@ You pilot an agile spaceship in 3D person that flies like an RC drone. You fight
 
 
 
+# Game Design Pillars
+
+1. **Omnidirectional Movement**: The abiltiy to move in all directions, forward, backward, up, down, diagonal, etc...
+2. **Homing Projectiles**: Most weapons in the game should be missiles that target the closest target. That includes, spaceships and other missiles.
+3. **Spaceships**: You control what looks like spaceship merged with a sci-fi drone as your player character.
+4. **Simple Controls**: The input controls must be simple enough that someone can learn how to move and shoot within 5 minutes or less.
+5. **Counter Shooting**: The player should be able to shoot down any projectile heading directly towards them using any projectile/missile they have equiped.
+
+
+
 # Design Philosophy
 
 1. Gameplay should feel arcade like in the sense of quick & short action.
@@ -56,23 +66,19 @@ You pilot an agile spaceship in 3D person that flies like an RC drone. You fight
 
 # Game Mechanics & Features
 
-##### Dual Piloting
-
-When testing [Demise]({{< ref "demise" >}}) at the Falmouth Games Expo, I found parents would sometimes dual pilot. One person might control when to shoot, and the other would control movement. I believe this could be made an interesting game mechanic.
-
-This mechanic would work in the same way as having two TV remotes and fighting over which channel to watch with your sibling. Both players have full controls and could control the spaceship solo, but they're also able to work together and delegate between them who's controlling what.
-
-_The implementation would likely work by allowing two people to use input from different controllers if they're playing from the same device. Getting this to work for two players connected over the internet would have to be experimented with. If the game doesn't do movement prediction and all movement is calculated on the server, then this would be really easy to do for players connected over the internet too._
-
-
 ##### Omnidirectional Movement
 
 Spaceships should be able to move in all directions including backwards just like with quadcopter drones. Different spaceships will be better at moving in certain directions, certain atmospheres, etc... This does not mean you can't move in a certain direction, but your spaceship and environment will affect movement speed or drift in certain directiosn, etc... 
 
+The omnidirectional movement will be based on the original inspiration [Demise]({{< ref "demise" >}}). Drone FPV videos are also a good example of what this might look like:
+
+{{< youtube Tjpfm5KFvJ0 >}}
+
+{{< youtube rzdk8_7H5Fw >}}
 
 ##### Physics Inspired Movement
 
-Spaceships should have their movement based on multiple variable like velocity, acceleration, air friction, etc... There should be different spaceships with different configurations so they have advantages and disadvantages based on play style, map, or location in the map.
+Spaceships have their movement based on multiple variable like velocity, acceleration, air friction, etc... Different spaceships have different configurations creating advantages and disadvantages based on play style, map, or location in the map.
 
 
 ##### Counter Measures
@@ -98,6 +104,15 @@ When spawning the player should have an estimated 1/3 their maximum capacity of 
 Collecting more ammo will likely be done via some sort of pickup, this is because it creates an opening of vunerability when a player has to fly a predictable path, making them an easy target for other players.
 
 
+##### Dual Piloting
+
+When testing [Demise]({{< ref "demise" >}}) at the Falmouth Games Expo, I found parents would sometimes dual pilot. One person might control when to shoot, and the other would control movement. I believe this could be made an interesting game mechanic.
+
+This mechanic would work in the same way as having two TV remotes and fighting over which channel to watch with your sibling. Both players have full controls and could control the spaceship solo, but they're also able to work together and delegate between them who's controlling what.
+
+_The implementation would likely work by allowing two people to use input from different controllers if they're playing from the same device. Getting this to work for two players connected over the internet would have to be experimented with. If the game doesn't do movement prediction and all movement is calculated on the server, then this would be really easy to do for players connected over the internet too._
+
+
 
 # Graphics & Aesthetic
 
@@ -108,17 +123,13 @@ The game should target laptop hardware to make it widely accessible.
 (This subject should be expanded, or an art bible created, when there is a better idea of art direction.)
 
 
-##### User Interface
-
-The game should reduce UI as much as possible, and only use it where needed and keep it simple. The player HUD when piloting a spaceship should also be simple/basic.
-
-
 ##### Default Spaceship Design
 
 I think this shapeship shape/silhouette would be cool for the base/default spaceship in the game:
 ![Image](gavin-rothery-concept-piece-1-energy-landed-group-closed-v010.jpg)
 ![Image](gavin-rothery-concept-piece-8-colour-schemes-black-v006.jpg)
 > Images from [Crusader Ares Starfighter concept for Star Citizen.](https://www.artstation.com/artwork/bKXE2G)
+
 
 ##### Eye Thrusters
 
@@ -134,30 +145,37 @@ Example image of a spaceship from the side. As you can see it has eye thrusters 
 
 1. 3v3v3 - player vs player.
 2. Free for all, 4-8 players all kill each other without teams.
+3. Potential for a singleplayer or multiplayer PvE campaign will be investigated/tested, but is not part of the original main game loop.
 
 Friendly fire should be a toggleable option for matches, and 3v3v3 is the primary/core game mode.
 
 
 
-# Lore/Story
-
-Nothing planned atm, and doesn't matter for now because the plot is not the game hook.
-
-
-
-# Target Audience & Other
+# Target Audience
 
 (research needed)
 
-Probably want the game price range to be somewhere between £5 to £15. My game might be slightly more expensive than other indie games with this same amount of content because this game has server costs. The game will need to keep servers running for a few years with one time purchases.
-
-Also intend on releasing a game demo. The demo will have 1 spaceship and 1 or 2 weapons along with access to the base gamemode (3v3v3). Players will not be able to unlock anything or have a time limit when playing on the demo.
 
 
+# Demo Plans
 
-# Purchasables
+Intend on releasing a game demo. The demo will have one spaceship, and 1 or 2 available weapons along with access to the core game mode (3v3v3). Players will be unable to unlock anything, and do not a time limit on how long they can play the demo for.
 
-There is no intention for conventional micro transations, but it might be worth giving players the option to upload custom skins for their spaceships for a fee or subscription. The biggest problem with this would probably be moderation of custom skins. Then again this can probably be done for free with no server costs, so I'm unsure.
+The demo will essentially operate as a permenant free tier for the game with access to the live servers, and they will play alongside other demo players and players who bought the game and have unlocked content.
+
+
+
+# Monetisation
+
+##### Game Target Price
+
+Probably want the game price range to be somewhere between £5 to £15. The game might be slightly more expensive than other indie games with the same amount of content because this game has ongoing server costs. The game will need to keep servers running for a few years with one time purchases, so this must be factored into the games price.
+
+
+##### Paid Custom Skins
+
+There is no intention for conventional micro transations at the moment, but it might be worth giving players the option to upload custom skins for their spaceships for a fee or subscription. The biggest problem with this would probably be moderation of custom skins. But this feature can probably also be done for free with no server costs, so I'm unsure.
+
 
 ---
 
