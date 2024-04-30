@@ -106,7 +106,7 @@ theme = "hugo-blog-awesome"
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Rian Rutherford"
   name = "Rian Rutherford"
-  description = "Game Programmer (Rust, Python, C++), experience with Unreal Engine, Bevy, and Godot. Likes multiplayer games!"
+  description = "Game Programmer (Rust, Python, C++), experience with Unreal Engine, Bevy, and Godot. Likes multiplayer games! Currently looking for work."
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
