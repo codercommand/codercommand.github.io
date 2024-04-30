@@ -27,7 +27,7 @@ This game was inspired from [Demise]({{< ref "demise" >}}).
 2. **Homing Projectiles**: Most weapons in the game should be missiles that target the closest target. That includes, spaceships and other missiles.
 3. **Spaceships**: You control what looks like spaceship merged with a sci-fi drone as your player character.
 4. **Simple Controls**: The input controls must be simple enough that someone can learn how to move and shoot within 5 minutes or less.
-5. **Counter Shooting**: The player should be able to shoot down any projectile heading directly towards them using any projectile/missile they have equiped.
+5. **Counter Shooting**: The player should be able to shoot down any projectile heading directly towards them using any projectile/missile they have equipped.
 
 
 
