@@ -1,23 +1,23 @@
 +++
-title = 'Arcade GDD'
+title = 'Arcade: Game Design Document'
 date = 2023-09-01
 draft = false
 +++
 
 Copyright, Rian Rutherford, 2024, All rights reserved.
 
+_This is a live document and continues to have edits._
+
 ![Image](gavin-rothery-concept-piece-1-energy-landed-group-closed-v010.jpg)
 > ^ Concept art by Gavin Rothery [source](https://www.artstation.com/artwork/bKXE2G).
-
-# Background
-
-This game was inspired from [Demise]({{< ref "demise" >}}), which you can read about in [Origin of Arcade]({{< ref "origin of arcade" >}}).
 
 
 
 # Concept & Gameplay
 
 You pilot an agile spaceship in 3D person that flies like an RC drone. You fight in a platoon of three people against two other platoons (3v3v3), using different homing and lock on projectiles, or weapons, to shoot down opponents in chaotic fights with lots of explosions.
+
+This game was inspired from [Demise]({{< ref "demise" >}}).
 
 
 
@@ -151,12 +151,6 @@ Friendly fire should be a toggleable option for matches, and 3v3v3 is the primar
 
 
 
-# Target Audience
-
-(research needed)
-
-
-
 # Demo Plans
 
 Intend on releasing a game demo. The demo will have one spaceship, and 1 or 2 available weapons along with access to the core game mode (3v3v3). Players will be unable to unlock anything, and do not a time limit on how long they can play the demo for.
@@ -175,82 +169,3 @@ Probably want the game price range to be somewhere between £5 to £15. The game
 ##### Paid Custom Skins
 
 There is no intention for conventional micro transations at the moment, but it might be worth giving players the option to upload custom skins for their spaceships for a fee or subscription. The biggest problem with this would probably be moderation of custom skins. But this feature can probably also be done for free with no server costs, so I'm unsure.
-
-
----
-
-<br>
-<br>
-<br>
-
-# GDD Extended
-
-Everything from this point on is extra information that doesn't have to be in the GDD, but I want it here anyway.
-
-
-### Weapons Ideas
-
-All most projectiles should be slow enough that a player has enough time to react, turn 180 degrees, and shoot it down with another projectile.
-
-
-##### Standard Missile
-
-Scans for a target and chases the closest target. This includes other missiles, not just spaceships. The missile does medium damage to the target it hits. This missile does not have AOE damage.
-
-
-##### Micro Nuke Missile
-
-Scans for a target and chases the closest target. This includes other missiles, not just spaceships. The missile explodes in an AOE when destroyed by another missile, reaches the end of its life, or hits a target. The missile does huge damage to everything in an AOE. The missile is slower than most others.
-
-
-##### Triple Missile
-
-You shoot a missile that breaks into 3 smaller missiles, each doing 1/3 the damage of a standard missile. The missile and smaller missiles have the same behavior as the _Standard Missile_.
-
-
-##### Cloud Rocket
-
-A missile that shoots in a straight line, if it detects a missile in it’s range it will explode creating a smokescreen This smoke screen stops missiles from tracking their target while inside the smoke. Missiles in the smoke tranvel straight till they leave.
-
-
-##### Rocket Barrage
-
-The player can shoot lots of small rockets like a machine gun or rocket pod. These rockets have poor turning making them bad at hitting targets suddenly changing directions. 
-
-{{< youtube N4JhkjtCnVQ >}}
-
-
-##### Gravity Void Missile
-
-A missile that creates a gravity void sphere (like a black hole) when it’s near an enemy spaceship or missile. It lingers in the area for a long period of time, and pulls stuff towards it. It does not cause damage to anything it pulls in. The gravity void is intended as a type of crowd control ability and large AOE map control ability.
-
-
-
-### Level & Environment Design Ideas
-
-##### Moving City/Moving Ground
-
-When close to the ground as you move above it, structures will appear out from the ground in front of you and disappear again behind you.
-
-Specifically the structures will achieve this by moving up and staying out fully extended a second or two before the player moves past them, then will move back down into the ground.
-
-One variant idea of who this moving ground could be as you fly over a desert, the sand jumps to form pillars or other shapes when you’re near the ground. The plot/logical reasoning is because the sound bounces from the acoustic sound of the spaceship, example:
-
-{{< youtube Q3oItpVa9fs >}}
-
-
-##### Multi Atmosphere
-
-Levels can have multiple atmospheres with different amounts of air friction/air density.
-
-1. Space no friction
-2. High altitude low friction
-3. Low altitude high friction
-4. Water/Other extreme friction
-
-The friction in the air could also scale with a gradient or use a curve graph to have a wide array of frictions at different altitudes scaling differently.
-
-
-##### Fog Level
-
-Foggy level where fights look like lots of small dots flashing in a cloud.

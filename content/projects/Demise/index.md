@@ -1,6 +1,6 @@
 +++
 title = 'Demise'
-date = 2022-12-01
+date = 2022-12-22
 draft = false
 +++
 
@@ -14,7 +14,7 @@ draft = false
 ![Image](shot-missile.png)
 > ^ The player is shooting another player with a homing missile. The missile is the little yellow dot on the screen between the two spaceships.
 
-I made this game solo around Christmas of *2022* during my 2nd year of university. It’s 3D spaceship PvP demo that works on LAN.
+I made this game solo around Christmas of *2022* during my 2nd year of university for an assignment. It’s 3D spaceship PvP demo that works on LAN.
 
 All the net-code and AI is made in Blueprints.
 
