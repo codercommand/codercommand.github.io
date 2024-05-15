@@ -57,7 +57,7 @@ This game was inspired from [Demise]({{< ref "demise" >}}).
 
 # Tech Stack & Implementation
 
-1. Client/Game Engine - https://heaps.io/
+1. Client/Game Engine - Godot
 2. Server - made using [Rust](https://www.rust-lang.org/) with minimal dependencies.
 3. No physics engine/runtimes will be used on the server or client.
 4. Server authoritative gameplay.
