@@ -6,7 +6,7 @@ draft = false
 
 Copyright, Rian Rutherford, 2024, All rights reserved.
 
-_This is a live document and continues to have edits._
+_This is a live document and continues to receive edits._
 
 ![Image](gavin-rothery-concept-piece-1-energy-landed-group-closed-v010.jpg)
 > ^ Concept art by Gavin Rothery [source](https://www.artstation.com/artwork/bKXE2G).
@@ -17,7 +17,7 @@ _This is a live document and continues to have edits._
 
 You pilot an agile spaceship in 3D person that flies like an RC drone. You fight in a platoon of three people against two other platoons (3v3v3), using different homing and lock on projectiles, or weapons, to shoot down opponents in chaotic fights with lots of explosions.
 
-This game was inspired from [Demise]({{< ref "demise" >}}).
+_This game was inspired from [Demise]({{< ref "demise" >}})._
 
 
 
@@ -57,10 +57,9 @@ This game was inspired from [Demise]({{< ref "demise" >}}).
 
 # Tech Stack & Implementation
 
-1. Client/Game Engine - Godot
-2. Server - made using [Rust](https://www.rust-lang.org/) with minimal dependencies.
-3. No physics engine/runtimes will be used on the server or client.
-4. Server authoritative gameplay.
+1. Game Engine - Unreal Engine 5
+2. Server Implementation: Server Authoritative
+3. Epic Online Service for services like lobbies, authentication, session management, friend lists, and more...
 
 
 
