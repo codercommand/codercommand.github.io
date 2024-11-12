@@ -106,7 +106,7 @@ theme = "hugo-blog-awesome"
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Rian Rutherford"
   name = "Rian Rutherford"
-  description = "Game Programmer (Rust, Python, C++), experience with Unreal Engine, Bevy, and Godot. Likes multiplayer games! Currently looking for work."
+  description = "Unreal Engine 5 C++ Multiplayer Programmer. Languages: C++ & Rust."
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
@@ -129,18 +129,9 @@ name = "github"
 url = "https://github.com/codercommand"
 
 [[params.socialIcons]]
-name = "x"
-url = "https://twitter.com/codercommand"
-
-[[params.socialIcons]]
 name = "itchio"
 url = "https://codercommand.itch.io/"
 
 [[params.socialIcons]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/rian-rutherford/"
-
-
-[[params.socialIcons]]
-name = "youtube"
-url = "https://www.youtube.com/@codercommand"
