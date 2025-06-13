@@ -112,6 +112,7 @@ Found competitior games:
 7. [Project Genesis](https://steamdb.info/app/700240/) is a competitor of Arcade, but don't appear to successful. They don't appear to be able to keep the game enjoyable enough for people, based on read feedback this appears to have to do with not enough players, some people having laggy servers, gameplay getting boring quickly, and missing polish.
 8. [STAR WARS™ Battlefront™](https://steamdb.info/app/1237980/) has a spaceship flying mechanic which means we share some competiton with it, but the game doesn't share the same mechanics or gameplay. The game has great reviews and people loved it, but the game is pretty dead now with it being very hard for anyone to get into multiplayer games.
 9. [Phantom Galaxies](https://steamdb.info/app/1272550/) mecha+spaceship game. While they should be competition, the game is dead and the reviews are very mixed.
+10. [Hunternet Starfighter](https://www.indiegogo.com/projects/hunternet-starfighter#/) Random new addition, haven't looked into this yet.
 
 There is room for a multiplayer spaceship shooter with no direct competition because most games that would control that market are either dead from age or have other problems causing them to die off.
 
